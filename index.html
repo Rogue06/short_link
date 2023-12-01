@@ -5,10 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Short yours links</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Application Short links </h1>
+        <p>Put a valid link, otherwise it does not work ! @Mickael</p>
+    </header>
+    <section>
+        <main>
+            <p class="error_message"></p>
+            <input type="text" placeholder="Link to shorten" class="long_link">
+            <button onclick="shortLinkFunct()">Short it !</button>
+            <div class="result">exemple.com</div>
+        </main>
+    </section>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
